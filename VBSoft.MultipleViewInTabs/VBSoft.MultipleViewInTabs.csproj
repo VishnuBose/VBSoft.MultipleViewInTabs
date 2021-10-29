@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\TabOne\" />
+    <None Remove="Views\Tabtwo\" />
+    <None Remove="Views\TabThree\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\TabOne\" />
+    <Folder Include="Views\Tabtwo\" />
+    <Folder Include="Views\TabThree\" />
+  </ItemGroup>
+</Project>
